@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(239, 246, 247);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-top: 120px;
+    padding-left: 45rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .card .card-body .submitbutton {
+    padding-top: 10px;
+}
+
+.container .card .card-body {
+    width: 22rem;
+}
+
+.container .card {
+    border-radius: 5px;
+}
+
+.container .passwordlink {
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.container .passwordlink a {
+    text-decoration: none;
+}
+
+.container .passwordlink a:hover {
+    text-decoration: underline;
+}
+
+.container .card .card-body .create-new-account {
+    text-align: center;
+}
+
+.container .card .card-body .create-new-account button {
+    background-color: rgb(64, 196, 64);
+    border-color: rgb(68, 209, 68);
+}
+
+.container .card .card-body .create-new-account button:hover{
+    background-color: rgb(48, 173, 48);
+    border-color: rgb(68, 209, 68);
+}
+
+.container .create-page a {
+    font-size: 13px;
+    padding-left: 45px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container .create-page span {
+    font-size: 13px;
+}
+
+.container .create-page a:hover {
+    text-decoration: underline;
+}
+
+.container .create-page {
+    padding-top: 1rem;
+}
+
+.container .main-heading span {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(74, 74, 253);
+    margin-left: -40rem;
+}
+
+.container .main-heading p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -40rem;
+}
