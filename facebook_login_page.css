@@ -83,3 +83,34 @@ body {
     font-weight: 500;
     margin-left: -40rem;
 }
+
+#subtitle {
+    font-weight: normal;
+}
+
+label {
+    font-weight: 100;
+}
+
+.form-control {
+    background-color: rgb(230, 227, 227);
+}
+
+.radionbutton {
+    margin-left: 6px;
+    border: 5px solid gray;
+}
+
+#but {
+    width: 150px;
+    background-color: rgb(43, 231, 43);
+    border-color: rgb(43, 231, 43);
+}
+
+.col-12 {
+    text-align: center;
+}
+
+.col-md {
+    padding-bottom: 8px;
+}

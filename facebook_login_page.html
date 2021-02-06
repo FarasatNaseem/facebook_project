@@ -68,7 +68,8 @@
 
                 <!-- submit button starts  -->
                 <div class=" create-new-account">
-                    <button type="submit" class="btn btn-primary">Create New Account</button>
+                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Create New Account</button>
                 </div>
                 <!-- submit button ends -->
 
@@ -89,6 +90,81 @@
     <!-- container ends -->
 
 
+<!-- Registration -->
+ <!-- Modal -->
+ <form action="index.php?selection=registration" method="POST">
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Sign Up</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row g-2">
+                        <div class="col-md">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingInputGrid"
+                                    placeholder="First name">
+                                <label for="floatingInputGrid">First name</label>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingInputGrid"
+                                    placeholder="Surname">
+                                <label for="floatingInputGrid">Surname</label>
+                            </div>
+                        </div>
+                        <div class="row g-1">
+                            <div class="col-md">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="floatingInputGrid"
+                                        placeholder="Mobile number or email address">
+                                    <label for="floatingInputGrid">Mobile number or email address</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-1">
+                            <div class="col-md">
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="floatingInputGrid"
+                                        placeholder="New Password">
+                                    <label for="floatingInputGrid">New Password</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-1">
+                            <div class="col-md">
+                                <div class="form-floating">
+                                    <input type="date" class="form-control" id="floatingInputGrid"
+                                        placeholder="Date of birth">
+                                    <label for="floatingInputGrid">Date of birth</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row g-1">
+                            <div class="col-md">
+                                <select class="form-select  form-control" aria-label="Default select example">
+                                    <option selected style="color: gray;">Gender</option>
+                                    <option value="1">Male</option>
+                                    <option value="2">Female</option>
+                                    <option value="3">Custom</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row g-1">
+                            <div class="col-12">
+                                <button type="submit" id="but" class="btn btn-primary">Sign up</button>
+                            </div>
+                        </div>
+                        <input type="hidden" name="usertype" id="usertype" value="1">
+                    </div>
+                </div>
+            </div>
+</form>
 
 
 
@@ -97,8 +173,6 @@
 
 
 
-
-    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
